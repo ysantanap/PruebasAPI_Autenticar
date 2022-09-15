@@ -47,7 +47,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"clientName\":\"Yudisel Santana\",\r\n    \"clientEmail\":\"y@exemplo.com\"\r\n}",
+					"raw": "{\r\n    \"clientName\":\"Yudisel Santana\",\r\n    \"clientEmail\":\"ya@exemplo.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -55,12 +55,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://simple-books-api.glitch.me/api-clients/",
-					"protocol": "https",
+					"raw": "{{URL}}/api-clients/",
 					"host": [
-						"simple-books-api",
-						"glitch",
-						"me"
+						"{{URL}}"
 					],
 					"path": [
 						"api-clients",
